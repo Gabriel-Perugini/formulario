@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu Formulário</title>
+</head>
+<body>
+
+	<h2>Formulário de Cadastro</h2>
+
+	<form action="#" method="post">
+
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome" required><br><br>
+
+		<label for="data_nascimento">Data de Nascimento:</label>
+		<input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+		<label for="hora_nascimento">Hora de Nascimento:</label>
+		<input type="time" id="hora_nascimento" name="hora_nascimento" required><br><br>
+
+		<label for="sexo_biologico">Sexo Biológico:</label>
+		<select id="sexo_biologico" name="sexo_biologico" required>
+			<option value="">Selecione</option>
+			<option value="masculino">Masculino</option>
+			<option value="feminino">Feminino</option>
+			<option value="outro">Outro</option>
+		</select><br><br>
+
+		<label for="telefone">Telefone:</label>
+		<input type="tel" id="telefone" name="telefone" required><br><br>
+
+		<input type="submit" value="Enviar">
+
+	</form>
+
+</body>
+</html>
